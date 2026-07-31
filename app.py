@@ -3,11 +3,21 @@ import math
 import numpy as np
 import matplotlib.pyplot as plt
 
-st.title("Quadratic Equation Solver")
+st.title("Quadratic Equation Solver)
+st.subheader("Created by Bernard")
+st.write(
+    """
+    This application solves quadratic equations of the form:
 
-a = st.number_input("Enter a", value=1.0)
-b = st.number_input("Enter b", value=0.0)
-c = st.number_input("Enter c", value=0.0)
+    **ax² + bx + c = 0**
+
+    Enter the values of **a**, **b**, and **c** below to calculate the roots and visualize the graph.
+    """
+)
+
+a = st.number_input("Enter a: ", value=1.0)
+b = st.number_input("Enter b: ", value=0.0)
+c = st.number_input("Enter c: ", value=0.0)
 
 if st.button("Solve"):
     delta = b**2 - 4*a*c
