@@ -98,8 +98,8 @@ if st.button("Solve",type="primary"):
                    label="Vertex")
 
         ax.set_title(f"y = {a}x² + {b}x + {c}")
-        ax.set_xlabel("x")
-        ax.set_ylabel("y")
+        ax.set_xlabel("X-Axis")
+        ax.set_ylabel("Y-Axis")
 
         ax.grid(True)
         ax.legend()
