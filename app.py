@@ -32,7 +32,7 @@ c = st.number_input("Enter coefficient c", value=0.00)
 if st.button("Solve",type="primary"):
 
     if a == 0:
-        st.error("Coefficient 'a' must not be 0 because the equation would not be quadratic.")
+        st.error("Coefficient 'a' must not be different from 0; otherwise, the equation would not be quadratic.")
 
     else:
 
