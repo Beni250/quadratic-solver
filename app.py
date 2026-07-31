@@ -22,14 +22,14 @@ st.write(
 # -----------------------------
 # Inputs
 # -----------------------------
-a = st.number_input("Enter coefficient a", value=1)
-b = st.number_input("Enter coefficient b", value=0)
-c = st.number_input("Enter coefficient c", value=0)
+a = st.number_input("Enter coefficient a", value=1.00)
+b = st.number_input("Enter coefficient b", value=0.00)
+c = st.number_input("Enter coefficient c", value=0.00)
 
 # -----------------------------
 # Solve Button
 # -----------------------------
-if st.button("Solve"):
+if st.button("Solve",color='blue'):
 
     if a == 0:
         st.error("Coefficient 'a' must not be 0 because the equation would not be quadratic.")
