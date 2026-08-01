@@ -119,4 +119,4 @@ if st.button("Solve",type="primary"):
 
 st.divider()
 
-st.caption("© 2026 Bernard | Linear Equation Solver")
+st.caption("© 2026 Bernard | Quadratic Equation Solver")
